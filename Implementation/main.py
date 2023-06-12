@@ -29,11 +29,11 @@ MutationGradData = namedtuple('MutationGradData', ['original_idx', 'mutation_idx
                                                    'original_docking_score', 'mutation_docking_score'])
 
 receptor_info_list = [
-    # ('5ht1a', '5ht1a_chembl_Ki_data.smi', '5ht1a_7E2X_cleaned.pdb', 101.897, 108.541, 111.118, 15, 15, 15),
-    # ('5ht7r', '5ht7_chembl_Ki_data.smi', '5ht7r_7XTC_cleaned.pdb', 89.854, 102.530, 82.123, 15, 15, 15),
+    ('5ht1a', '5ht1a_chembl_Ki_data.smi', '5ht1a_7E2X_cleaned.pdb', 101.897, 108.541, 111.118, 15, 15, 15),
+    ('5ht7r', '5ht7_chembl_Ki_data.smi', '5ht7r_7XTC_cleaned.pdb', 89.854, 102.530, 82.123, 15, 15, 15),
     ('beta2', 'beta2AR_chembl_Ki_data.smi', 'beta2_5D5A_cleaned.pdb', -35.132, 11.562, 3.035, 15, 15, 15),
-    # ('d2',    'D2_chembl_Ki_data.smi', 'd2_6CM4_cleaned.pdb', 4.598, 9.999, -7.445, 15, 15, 15),
-    # ('h1',    'H1_chembl_Ki_data.smi', 'h1_3RZE_cleaned.pdb', 9.705, 35.243, 21.005, 15, 15, 15)
+    ('d2',    'D2_chembl_Ki_data.smi', 'd2_6CM4_cleaned.pdb', 4.598, 9.999, -7.445, 15, 15, 15),
+    ('h1',    'H1_chembl_Ki_data.smi', 'h1_3RZE_cleaned.pdb', 9.705, 35.243, 21.005, 15, 15, 15)
 ]
 
 # Variables to move to input parameters

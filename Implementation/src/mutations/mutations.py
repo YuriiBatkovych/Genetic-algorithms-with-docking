@@ -102,12 +102,12 @@ def generate_single_mutation(mol: Chem.rdchem.Mol):
 
     for i in range(10):
         rxn_smarts_list = [
-            # insert_atom(),
-            # change_bond_order(),
-            # delete_cyclic_bond(),
-            # add_ring(),
-            # delete_atom(),
-            # change_atom(mol),
+            insert_atom(),
+            change_bond_order(),
+            delete_cyclic_bond(),
+            add_ring(),
+            delete_atom(),
+            change_atom(mol),
             append_atom(),
         ]
         rxn_smarts = np.random.choice(rxn_smarts_list)
